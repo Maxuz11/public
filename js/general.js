@@ -66,8 +66,8 @@ $("a[href='#cont_exp']").on('click', function() {
     }, 1500); 
 });
 
-$("a[href='#cont_pro']").on('click', function() {
-    var targetOffset = $("#cont_pro").offset().top;
+$("a[href='#cont_tech']").on('click', function() {
+    var targetOffset = $("#cont_tech").offset().top;
 
     $('html, body').animate({
         scrollTop: targetOffset
